@@ -1,0 +1,33 @@
+html, body{
+	margin: 40px;
+}
+
+.err{
+	outline: 1px solid red;
+}
+.form{
+	width: 408px;
+}
+input, textarea {
+	padding: 10px 3px;
+	margin: 20px 0;
+	border: 1px solid #ddd;
+	min-width: 400px;
+	display: block;
+}
+.label-form {
+	display: block;
+}
+input[type="checkbox"] {
+	display: inline;
+	min-width: 15px;
+}
+.errors {
+	color: darkred;
+}
+.errors-chk {
+	color: darkred;
+}
+.hidden {
+	display: none;
+}
